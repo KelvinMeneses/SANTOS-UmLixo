@@ -101,7 +101,6 @@ header {
     color: var(--white);
     padding: 1rem 2rem;
     box-shadow: var(--shadow);
-    border-bottom: 3px solid var(--accent-color);
 }
 
 header h1 {
@@ -171,7 +170,7 @@ nav a.active::after {
 main {
     flex: 1;
     padding: 2rem;
-    background-color: var(--dark-color);
+    background-color: #F5F5F5;
 }
 
 .section {
@@ -203,7 +202,6 @@ h2 {
     color: var(--accent-color);
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -229,8 +227,7 @@ h3 {
     border-radius: var(--border-radius);
     padding: 1.5rem;
     box-shadow: var(--shadow);
-    transition: all 0.3s;
-    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s; 
 }
 
 .stat-card:hover,
@@ -410,7 +407,6 @@ footer {
     color: var(--white);
     padding: 2rem;
     margin-top: auto;
-    border-top: 3px solid var(--accent-color);
 }
 
 .footer-container {
