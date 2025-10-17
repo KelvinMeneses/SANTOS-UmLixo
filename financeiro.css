@@ -102,7 +102,7 @@ textarea {
 .alinhaBtns {
     background: rgb(212, 17, 17);
     color: white;
-    border: none;(212, 17, 17);
+    border: none;
     padding: 12px;
     width: 100%;
     margin: 10px 0;
@@ -131,7 +131,7 @@ table th, table td {
 }
 
 table th {
-    background: rgb(212, 17, 17) ;
+    background: rgb(212, 17, 17);
     color: var(--light-color);
     font-weight: bold;
 }
